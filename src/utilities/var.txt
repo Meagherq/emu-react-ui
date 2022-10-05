@@ -1,0 +1,1 @@
+REACT_APP_B2C_SCOPES="user.read, api://4023cf15-74fa-4f7c-ad53-fe8899902c73/api-access"
