@@ -14,17 +14,16 @@ jobs:
       with:
         node-version: 16
 
-    #   - run: > touch .env.production
-    #           echo "
-    #           REACT_APP_API_ROOT="https://dev-emunation-api-app.azurewebsites.net"
-    #           REACT_APP_SITE_URL="https://app.emunation.org"
-    #           REACT_APP_B2C_INSTANCE="https://login.microsoftonline.com/"
-    #           REACT_APP_B2C_TENANT="90e77988-b471-4f16-896e-4b3b2b55fcf5"
-    #           REACT_APP_B2C_APPID="1221204e-cd94-42a7-aca6-01e6f6147802"
-    #           REACT_APP_B2C_SCOPES="api://4023cf15-74fa-4f7c-ad53-fe8899902c73/api-access"
-    #           " > .env.production
-    #   - run: ls
-
-    #   - run: | 
-    #         npm ci
-    #         npm run build
+    - run: > touch .env.production
+            echo "
+            REACT_APP_API_ROOT="https://dev-emunation-api-app.azurewebsites.net"
+            REACT_APP_SITE_URL="https://app.emunation.org"
+            REACT_APP_B2C_INSTANCE="https://login.microsoftonline.com/"
+            REACT_APP_B2C_TENANT="90e77988-b471-4f16-896e-4b3b2b55fcf5"
+            REACT_APP_B2C_APPID="1221204e-cd94-42a7-aca6-01e6f6147802"
+            REACT_APP_B2C_SCOPES="api://4023cf15-74fa-4f7c-ad53-fe8899902c73/api-access"
+            " > .env.production
+    - run: ls
+    - run: | 
+          npm ci
+          npm run build
