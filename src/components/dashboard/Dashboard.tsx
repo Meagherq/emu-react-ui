@@ -54,6 +54,8 @@ const Dashboard = (props: Props) => {
 
     const auth = getAuth()
 
+    // Test1
+
     useEffect(() => {
         setAuthenticatedUserAction(auth.currentUser())
     }, [auth, setAuthenticatedUserAction])
