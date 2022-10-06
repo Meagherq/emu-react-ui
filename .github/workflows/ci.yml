@@ -14,7 +14,10 @@ jobs:
       with:
         node-version: 16
 
-    - run: 'touch .env.production
+    - run: |
+            cd $GITHUB_WORKSPACE
+            ls
+            'touch .env.production
             echo "
             REACT_APP_API_ROOT="https://dev-emunation-api-app.azurewebsites.net"
             REACT_APP_SITE_URL="https://app.emunation.org"
