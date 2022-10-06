@@ -2409,6 +2409,7 @@
   "version" "2.1.2"
 
 "audiobuffer-to-wav@git+https://github.com/torch2424/audiobuffer-to-wav.git#es-module-rollup":
+  "integrity" "sha512-0tYAjLGqBqGmDzuqb6oUFr6FDnZt9ngel32ZsEBa08ziJ/Y7FzG6pyAw9wfJawgv4d5dp3BhYHkgWrgWGaSzYQ=="
   "resolved" "git+ssh://git@github.com/torch2424/audiobuffer-to-wav.git#8878a20c5cc7e457b113dabfb1781ad4178f9c62"
   "version" "1.0.0"
 
@@ -4865,6 +4866,11 @@
   "integrity" "sha512-Wz3c3XQ5xroCxd1G8b7yL0Ehkf0TC9oYC6buPFkNnU9EnaPlifeAFCyCh+iewXTyFRcg0a6j3J7FmJsIhlhBdw=="
   "resolved" "https://registry.npmjs.org/file-saver/-/file-saver-2.0.2.tgz"
   "version" "2.0.2"
+
+"file-uri-to-path@1.0.0":
+  "integrity" "sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw=="
+  "resolved" "https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz"
+  "version" "1.0.0"
 
 "filesize@6.0.1":
   "integrity" "sha512-u4AYWPgbI5GBhs6id1KdImZWn5yfyFrrQ8OWZdN7ZMfA8Bf4HcO0BGo9bmUIEV8yrp8I1xVfJ/dn90GtFNNJcg=="
