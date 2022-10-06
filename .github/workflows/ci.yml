@@ -16,7 +16,7 @@ jobs:
 
     - run: |
             cd $GITHUB_WORKSPACE
-            touch .env.production
+            cat .env.production
             ls
             'echo "
             REACT_APP_API_ROOT="https://dev-emunation-api-app.azurewebsites.net"
