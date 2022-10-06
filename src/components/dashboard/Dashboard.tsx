@@ -44,7 +44,6 @@ interface Props extends WithStyles<typeof styles> {
 const Dashboard = (props: Props) => {
     const {
         status,
-        userGameProfiles,
         fetchUserGameProfilesByUserIdAction,
         clearStatus,
         classes,
