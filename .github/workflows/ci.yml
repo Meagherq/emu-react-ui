@@ -15,7 +15,8 @@ jobs:
         node-version: 16
 
     - run: |
-            cd $GITHUB_WORKSPACE
+            ls
+            cd $GITHUB_WORKSPACE/src
             ls
             'touch .env.production
             echo "
@@ -26,6 +27,7 @@ jobs:
             REACT_APP_B2C_APPID="1221204e-cd94-42a7-aca6-01e6f6147802"
             REACT_APP_B2C_SCOPES="api://4023cf15-74fa-4f7c-ad53-fe8899902c73/api-access"
             " > .env.production'
+            cd ..
     - run: ls
     - run: | 
           npm ci
