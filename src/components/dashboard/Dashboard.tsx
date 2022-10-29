@@ -44,7 +44,6 @@ interface Props extends WithStyles<typeof styles> {
 const Dashboard = (props: Props) => {
     const {
         status,
-        userGameProfiles,
         fetchUserGameProfilesByUserIdAction,
         clearStatus,
         classes,
@@ -53,6 +52,8 @@ const Dashboard = (props: Props) => {
     } = props
 
     const auth = getAuth()
+
+    // Test1
 
     useEffect(() => {
         setAuthenticatedUserAction(auth.currentUser())
